@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+
+.para{
+  background-color: red;
+  padding: 10px;
+  text-align: left;
+  width: 1000px;
+  margin: auto;
+}
+
+.menu{
+  width:80%;
+  background: aqua;
+  text-align: left;
+  position: fixed;
+  list-style: none;
+  height: 100vh;
+  left: -100%;
+  transition: 0.5s;
+
+}
+.menu ul li{
+  list-style: none;
+  padding: 10px 0px;
+}
+.micon{
+  position: absolute;
+  right: 10px;
+}
+.activeMenu{
+  left: 0%;
+}
+
+.modalOverLay{
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: none;
+position:fixed ;
+}
+
+.ModalDiv{
+width: 320px;
+height: 320px;
+background-color: white;
+position: fixed;
+left: 50%;
+top: -500%;
+transform: translate(-50%, -50%);
+transition: 0.3s;
+}
+
+.modalshow{
+  display: block;
+}
+
+/* .en{
+  position: fixed;
+  top: 100%;
+  right: 70%;
+  
+  transform: rotate(90deg);
+} */
+
+.showModalDiv{
+  top: 50%;
+}
+
+.faqouter{
+ width: 1320px;
+ margin: auto;
+ height: auto;
+}
+
+.faqitems{
+  border: 1px solid red;
+}
+
+.faqitems h2{
+  margin: 0px;
+  padding: 10px;
+  background-color: yellow;
+  color: rgb(91, 4, 14);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faqitems p{
+  height: 0px;
+  padding: 0px;
+  height: 0px;
+  transform: scaleY();
+}
